@@ -10,5 +10,7 @@ function hjh(){
   span.innerHTML = name2;
   div.appendChild(span) 
 }
-
+var mydiv2 = document.getElementsByClassName("mydiv2")[0];
+console.log(mydiv2.innerHTML);
+console.log(mydiv2.outerHTML);
 
